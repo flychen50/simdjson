@@ -13,8 +13,13 @@ simdjson_warn_unused error_code implementation::create_dom_parser_implementation
   if (auto err = dst->set_capacity(capacity))
     return err;
   if (auto err = dst->set_max_depth(max_depth))
+
+
+
+
+
     return err;
-  return SUCCESS;
+                      return SUCCESS;
 }
 
 } // namespace SIMDJSON_IMPLEMENTATION
